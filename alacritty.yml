@@ -16,10 +16,10 @@ cursor:
 font:
   # Font size
   normal:
-    family: ComicMono 
-    style: Regular
+    family: Comic Mono 
+    style: Regular 
   bold:
-    famliy: ComicMono 
+    famliy: Comic Mono 
     sytle: Bold
   italic:
     family: FantasqueSansMono Nerd Font Mono
