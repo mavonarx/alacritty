@@ -19,10 +19,10 @@ font:
     x: 0
     y: 3
   normal:
-    family: Comic Mono 
+    family: ComicMono Nerd Font 
     style: Regular 
   bold:
-    famliy: Comic Mono 
+    famliy: ComicMono Nerd Font 
     sytle: Bold
   italic:
     family: FantasqueSansMono Nerd Font Mono
