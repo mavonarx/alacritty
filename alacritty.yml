@@ -15,6 +15,9 @@ cursor:
 
 font:
   # Font size
+  offset:
+    x: 0
+    y: 3
   normal:
     family: Comic Mono 
     style: Regular 
@@ -24,7 +27,7 @@ font:
   italic:
     family: FantasqueSansMono Nerd Font Mono
     style: Italic
-  size: 22
+  size: 20 
   AppleFontSmoothing: true
   # Better font rendering for mac
 
