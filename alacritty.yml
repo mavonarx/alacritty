@@ -25,7 +25,7 @@ font:
     famliy: ComicMono Nerd Font 
     sytle: Bold
   italic:
-    family: FantasqueSansMono Nerd Font Mono
+    family: ComicMono Nerd Font 
     style: Italic
   size: 20 
   AppleFontSmoothing: true
