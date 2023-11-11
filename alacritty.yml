@@ -1,7 +1,3 @@
-#
-# modified 2021-06-28
-#
-
 env:
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
@@ -20,7 +16,7 @@ font:
     y: 10
   normal:
     family: ComicMono Nerd Font 
-    style: Regular 
+    style: Regular
   bold:
     famliy: ComicMono Nerd Font 
     sytle: Bold
@@ -30,20 +26,21 @@ font:
   size: 20 
 
 window: 
-  decorations: Full 
+  decorations: full 
   startup_mode: Windowed
   dynamic_padding: false
+  dimensions:
+    columns: 78
+    lines: 40
   padding:
     x: 1
     y: 1
-  border: 
-    width: 2
-    color: '#FFFFFF'
+
 # Colors (Hyper)
 colors:
   # Default colors
   primary:
-    background: '#101010'
+    background: '#202020'
     foreground: '#ffffff'
   cursor:
     text: '#F81CE5'
@@ -113,6 +110,10 @@ scrolling:
   # to the terminal.
   auto_scroll: false
 
+mouse:
+  mouse_mode: normal
+
 key_bindings:
 - { key: Space, mods: Alt, chars: " " }
+- { key: Space, mods: Command, chars: " " }
 - { key: N, mods: Command, action: CreateNewWindow }
