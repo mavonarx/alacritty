@@ -19,7 +19,7 @@ font:
     style: Regular 
   bold:
     family: ComicMono Nerd Font 
-    style: Bold
+    style: Bold 
   italic:
     family: ComicMono Nerd Font 
     style: Italic 
