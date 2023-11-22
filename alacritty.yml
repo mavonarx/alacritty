@@ -4,69 +4,30 @@ env:
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   TERM: xterm-256color
-
+    
 cursor:
   # Block Underline or Beam
   style: Block
 
 font:
   # Font size
-  offset:
-    x: 1
-    y: 10
   normal:
-    family: ComicMono Nerd Font 
+    family: ComicCode Nerd Font 
     style: Regular 
   bold:
-    family: ComicMono Nerd Font 
+    family: ComicCode Nerd Font
     style: Bold 
   italic:
-    family: ComicMono Nerd Font 
+    family: ComicCode Nerd Font
     style: Italic
-  size: 20 
+  size: 18 
 
 window: 
   decorations: full 
   startup_mode: Windowed
-  dynamic_padding: false
   dimensions: 
     columns: 78
     lines: 40
-  padding:
-    x: 1
-    y: 1
-
-# Colors (Hyper)
-colors:
-  # Default colors
-  primary:
-    background: '#202020'
-    foreground: '#ffffff'
-  cursor:
-    text: '#F81CE5'
-    cursor: '#ffffff'
-
-  # Normal colors
-  normal:
-    black: '#000000'
-    red: '#fe0100'
-    green: '#00a600'
-    yellow: '#feff00'
-    blue: '#0066ff'
-    magenta: '#cc00ff'
-    cyan: '#00ffff'
-    white: '#d0d0d0'
-
-  # Bright colors
-  bright:
-    black: '#808080'
-    red: '#fe0100'
-    green: '#00d900'
-    yellow: '#feff00'
-    blue: '#0066ff'
-    magenta: '#cc00ff'
-    cyan: '#00ffff'
-    white: '#FFFFFF'
 
 selection:
   # This string contains all characters that are used as separators for
@@ -123,4 +84,9 @@ mac:
 
   notifications: true
 
-
+import:
+  # uncomment the flavour you want below:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
