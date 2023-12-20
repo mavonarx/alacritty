@@ -15,13 +15,13 @@ font:
     x: 1
     y: 10
   normal:
-    family: ComicMono Nerd Font 
+    family: ComicCode Nerd Font 
     style: Regular
   bold:
-    famliy: ComicMono Nerd Font 
+    famliy: ComicCode Nerd Font 
     sytle: Bold
   italic:
-    family: ComicMono Nerd Font 
+    family: ComicCode Nerd Font 
     style: Italic
   size: 15
 
