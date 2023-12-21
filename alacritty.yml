@@ -33,40 +33,8 @@ window:
     columns: 60
     lines: 25
   padding:
-    x: 1
-    y: 1
-
-# Colors (Hyper)
-colors:
-  # Default colors
-  primary:
-    background: '#202020'
-    foreground: '#ffffff'
-  cursor:
-    text: '#F81CE5'
-    cursor: '#ffffff'
-
-  # Normal colors
-  normal:
-    black:   '#000000'
-    red:     '#fe0100'
-    green:   '#00a600'
-    yellow:  '#feff00'
-    blue:    '#0066ff'
-    magenta: '#cc00ff'
-    cyan:    '#00ffff'
-    white:   '#d0d0d0'
-
-  # Bright colors
-  bright:
-    black:   '#808080'
-    red:     '#fe0100'
-    green:   '#00d900'
-    yellow:  '#feff00'
-    blue:    '#0066ff'
-    magenta: '#cc00ff'
-    cyan:    '#00ffff'
-    white:   '#FFFFFF'
+    x: 0
+    y: 0
 
 selection:
   # This string contains all characters that are used as separators for
@@ -85,7 +53,6 @@ shell:
 
 # Startup directory, unset or None for home directory
 working_directory: None
-
 
 scrolling:
   # How many lines of scrollback to keep,
@@ -112,6 +79,14 @@ scrolling:
 
 mouse:
   mouse_mode: normal
+
+import:
+  # uncomment the flavour you want below:
+   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
 
 key_bindings:
 - { key: Space, mods: Alt, chars: " " }
