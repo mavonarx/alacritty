@@ -34,7 +34,7 @@ selection:
   # "semantic words" in Alacritty.
 
   # When true, selected text will be copied to the primary clipboard
-  save_to_clipboard: true
+  save_to_clipboard: false
 
 
 window.option_as_alt: false
