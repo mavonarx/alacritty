@@ -1,5 +1,4 @@
 import = ["/home/maettu/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
-"window.option_as_alt" = false
 working_directory = "None"
 
 [cursor]
@@ -12,8 +11,8 @@ TERM = "xterm-256color"
 size = 15
 
 [font.bold]
-famliy = "ComicCode Nerd Font"
-sytle = "Bold"
+family = "ComicCode Nerd Font"
+style = "Bold"
 
 [font.italic]
 family = "ComicCode Nerd Font"
@@ -58,16 +57,6 @@ key = "Q"
 mods = "Control"
 
 [[keyboard.bindings]]
-action = "Quit"
-key = "W"
-mods = "Control"
-
-[[keyboard.bindings]]
-action = "Quit"
-key = "W"
-mods = "Control"
-
-[[keyboard.bindings]]
 action = "IncreaseFontSize"
 key = "Up"
 mods = "Control"
@@ -78,11 +67,8 @@ key = "Down"
 mods = "Control"
 
 [mouse]
-mouse_mode = "normal"
 
 [scrolling]
-auto_scroll = false
-faux_multiplier = 3
 history = 1000
 multiplier = 3
 
